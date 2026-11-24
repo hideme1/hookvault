@@ -24,6 +24,14 @@ Most webhook relays are either insecure toy scripts or black-box SaaS services. 
 - **Sanitized Headers & Zero Information Leakage:** Automatic stripping of `Cookie`, `Authorization`, and `Set-Cookie` headers; structured error outputs with zero exposed stack traces or SQL logs.
 
 ---
+## Interface Preview
+
+### Endpoints Manager & SSRF-Protected Relay
+![HookVault Endpoints Dashboard](./docs/dashboard.jpg)
+
+### Live Event Inspector & 1-Click Replay
+![HookVault Event Inspector](./docs/inspector.jpg)
+
 
 ## Inbound & Outbound Pipeline Architecture
 
